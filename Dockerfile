@@ -1,6 +1,6 @@
 FROM python:3.8
 
-RUN pip install -I flexget transmissionrpc
+RUN pip install -I flexget transmission-rpc
 
 RUN mkdir -p /root/.flexget \
     && touch /root/.flexget/config.yml
